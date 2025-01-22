@@ -12,7 +12,6 @@
   "description": "",
   "devDependencies": {
     "@gravity-ui/app-builder": "^0.14.0",
-    "@gravity-ui/browserslist-config": "^4.3.0",
     "@gravity-ui/tsconfig": "^1.0.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
@@ -25,6 +24,6 @@
     "monaco-editor": "^0.48.0"
   },
   "browserslist": [
-    "extends @gravity-ui/browserslist-config"
+    "last 2 chrome versions"
   ]
 }
