@@ -1,0 +1,7 @@
+{
+    "extends": "@gravity-ui/tsconfig",
+    "compilerOptions": {
+        "jsx": "react-jsx"
+    },
+    "exclude": ["**/node_modules/**"]
+}
