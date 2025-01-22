@@ -6,6 +6,15 @@ import {App} from '../components/App';
 
 const container = document.getElementById('root');
 
+class Foobar {
+    static unknown: string;
+    static {
+        this.unknown = '';
+    }
+}
+
+console.log(Foobar);
+
 if (!container) {
     throw new Error('container element not found');
 }
